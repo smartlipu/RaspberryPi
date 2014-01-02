@@ -1,13 +1,15 @@
-package com.weatherstation.temperature;
+package com.weatherstation.livedata;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 
+import com.weatherstation.utils.Utils;
+
 public class TempHumValue {
 
-	public String temperatureinC = "30";
+	public String temperatureinC = "23";
 	public String temperatureinF;
 	public String humidity;
 	public String time;
@@ -20,7 +22,7 @@ public class TempHumValue {
 		String Json = "";
 		try {
 			URL fhemserver = new URL(
-					"http://192.168.0.10:8083/fhem?cmd=jsonlist&XHR=1");
+					"http://"+Utils.getEthernetIpAdd().trim()+":8083/fhem?cmd=jsonlist&XHR=1");
 			URLConnection get = fhemserver.openConnection();
 			BufferedReader in = new BufferedReader(new InputStreamReader(
 					get.getInputStream()));

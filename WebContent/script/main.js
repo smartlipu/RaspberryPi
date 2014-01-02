@@ -23,11 +23,19 @@
 				$("#range").bind('click',function(){
 					alterEffect('range');
 				});
+				$("#altersip").bind('click',function(){
+					alterSip();
+				});
+				
 				pollServer();
 				pollForever();
 				basetemperaturechange(0);
 				//alert('okie');
 			});
+			function alterSip(){
+				value = $("#sipuri").val();
+				$.get("SipUriFromUser?value="+value , function( data ) {});
+			}
 			function alterEffect(effect){
 				if(effect == 'dim'){
 					$("#dim").hide();

@@ -51,10 +51,11 @@
 				<button name="dim" class="btn btn-primary" id="range">Range Effect</button>
 			</div>
 		</div>
-		<div class="main">
+		<div class="main" style="height:115px">
 			<div class="sip">
 				Sip Url  &nbsp
-				<input name="sipurl" class="form-control" placeholder="sip:danish@192.168.1.1">
+				<input id="sipuri" name="sipurl" class="form-control" placeholder="sip:danish@192.168.1.1">
+				<button name="dim" class="btn btn-primary" id="altersip" style="margin:5px;">Change Sip Address</button>	
 			</div>
 		</div>
 	</body>

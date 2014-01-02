@@ -1,15 +1,9 @@
 package com.weatherstation.sip;
 
-import java.net.InetAddress;
-import java.net.NetworkInterface;
-import java.net.SocketException;
 import java.text.ParseException;
 import java.util.ArrayList;
-import java.util.Enumeration;
 import java.util.Properties;
 import java.util.TooManyListenersException;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import javax.sip.DialogTerminatedEvent;
 import javax.sip.IOExceptionEvent;
@@ -19,6 +13,7 @@ import javax.sip.ObjectInUseException;
 import javax.sip.PeerUnavailableException;
 import javax.sip.RequestEvent;
 import javax.sip.ResponseEvent;
+import javax.sip.ServerTransaction;
 import javax.sip.SipException;
 import javax.sip.SipFactory;
 import javax.sip.SipListener;
@@ -45,6 +40,8 @@ import javax.sip.message.Response;
 
 import org.apache.log4j.Logger;
 
+import com.weatherstation.utils.Utils;
+
 public class SipController implements SipListener {
 
 	private static SipController instance = null;
@@ -64,7 +61,7 @@ public class SipController implements SipListener {
 	private ListeningPoint udpListeningPoint;
 
 	private String ipAddress;
-	
+
 	private double temperatureDifference = 2.0;
 
 	private Logger log = Logger.getLogger(SipController.class.getSimpleName());
@@ -90,8 +87,8 @@ public class SipController implements SipListener {
 		messageFactory = sipFactory.createMessageFactory();
 
 		// ipaddress of computer eth0
-		this.ipAddress = getEthernetIpAdd();
-		log.info("IP address is(logger): " + getEthernetIpAdd());
+		this.ipAddress = Utils.getEthernetIpAdd();
+		log.info("IP address is(logger): " + ipAddress);
 
 		udpListeningPoint = sipStack.createListeningPoint(ipAddress, 5060,
 				ListeningPoint.UDP);
@@ -175,14 +172,10 @@ public class SipController implements SipListener {
 		// stopListesing();
 	}
 
-//	private void stopListesing() throws ObjectInUseException {
-//		sipProvider.removeListeningPoint(udpListeningPoint);
-//		for (ListeningPoint lp : sipProvider.getListeningPoints()) {
-//			sipStack.deleteListeningPoint(lp);
-//		}
-//		sipStack.deleteSipProvider(sipProvider);
-//		sipStack.stop();
-//	}
+	public void stopListesing() throws ObjectInUseException {
+		sipProvider.removeListeningPoint(udpListeningPoint);
+		sipStack.deleteListeningPoint(udpListeningPoint);
+	}
 
 	private int getPort() {
 		return 5060;
@@ -225,12 +218,15 @@ public class SipController implements SipListener {
 		Request req = event.getRequest();
 		CSeqHeader cseq = (CSeqHeader) req.getHeader(CSeqHeader.NAME);
 		String method = cseq.getMethod();
-		if(!Request.MESSAGE.equals(method)){
-			log.info("Bad Request: " + method + " Only MESSAGE is accepted my this server");
+		if (!Request.MESSAGE.equals(method)) {
+			log.info("Bad Request: " + method
+					+ " Only MESSAGE is accepted my this server");
 			return;
 		}
 		String msg = new String(req.getRawContent());
 		setTemperatureDifference(Double.valueOf(msg));
+		// send 200 OK after receiving MESSAGE from user
+		sendOkMessage(event);
 	}
 
 	public void processResponse(ResponseEvent event) {
@@ -238,11 +234,11 @@ public class SipController implements SipListener {
 
 		if (res.getStatusCode() == 200) {
 			log.info("200 OK message is received");
-//			try {
-//				stopListesing();
-//			} catch (ObjectInUseException e) {
-//				e.printStackTrace();
-//			}
+			// try {
+			// stopListesing();
+			// } catch (ObjectInUseException e) {
+			// e.printStackTrace();
+			// }
 		}
 	}
 
@@ -252,46 +248,36 @@ public class SipController implements SipListener {
 	public void processTransactionTerminated(TransactionTerminatedEvent arg0) {
 	}
 
-	public String getEthernetIpAdd() {
-		try {
-			Enumeration<NetworkInterface> en = NetworkInterface
-					.getNetworkInterfaces();
-
-			while (en.hasMoreElements()) {
-				NetworkInterface ni = (NetworkInterface) en.nextElement();
-				if ("eth0".equalsIgnoreCase(ni.getDisplayName())) {
-					Enumeration<InetAddress> ee = ni.getInetAddresses();
-					while (ee.hasMoreElements()) {
-						InetAddress ia = (InetAddress) ee.nextElement();
-						if (isIpv4Address(ia.getHostAddress())) {
-							return ia.getHostAddress();
-						}
-					}
-				}
-			}
-		} catch (SocketException e1) {
-			e1.printStackTrace();
-		}
-		return null;
-	}
-
-	private static final String PATTERN = "^([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\."
-			+ "([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\."
-			+ "([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\."
-			+ "([01]?\\d\\d?|2[0-4]\\d|25[0-5])$";
-
-	public static boolean isIpv4Address(final String ip) {
-
-		Pattern pattern = Pattern.compile(PATTERN);
-		Matcher matcher = pattern.matcher(ip);
-		return matcher.matches();
-	}
-
 	public double getTemperatureDifference() {
 		return temperatureDifference;
 	}
 
 	public void setTemperatureDifference(double temperatureDifference) {
 		this.temperatureDifference = temperatureDifference;
+	}
+
+	private void sendOkMessage(RequestEvent event) {
+		System.out.println("processMessage: 1");
+		System.out.println(event.getRequest() != null);
+		Request req = event.getRequest();
+		try {
+			// send 200 OK response to user
+			Response response = messageFactory.createResponse(200, req);
+			SipURI contactURI = addressFactory.createSipURI(getUsername(),
+					getHost());
+			contactURI.setPort(getPort());
+			Address address = addressFactory.createAddress(contactURI);
+			address.setDisplayName(getUsername());
+			ContactHeader contactHeader = headerFactory
+					.createContactHeader(address);
+			response.addHeader(contactHeader);
+			ServerTransaction st = event.getServerTransaction();
+			if (st == null) {
+				st = sipProvider.getNewServerTransaction(req);
+			}
+			st.sendResponse(response);
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
 	}
 }

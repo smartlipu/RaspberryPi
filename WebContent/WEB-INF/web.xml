@@ -11,33 +11,22 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>temperature</display-name>
-    <servlet-name>temperature</servlet-name>
-    <servlet-class>com.weatherstation.temperature.Temperature</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>temperature</servlet-name>
-    <url-pattern>/temperature</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
     <display-name>livedata</display-name>
     <servlet-name>livedata</servlet-name>
-    <servlet-class>com.weatherstation.temperature.Livedata</servlet-class>
+    <servlet-class>com.weatherstation.livedata.Livedata</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>livedata</servlet-name>
     <url-pattern>/livedata</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <description></description>
-    <display-name>stopled</display-name>
-    <servlet-name>stopled</servlet-name>
-    <servlet-class>com.weatherstation.temperature.Stopled</servlet-class>
+    <display-name>SipUriFromUser</display-name>
+    <servlet-name>SipUriFromUser</servlet-name>
+    <servlet-class>com.weatherstation.sip.SipUriFromUser</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>stopled</servlet-name>
-    <url-pattern>/stopled</url-pattern>
+    <servlet-name>SipUriFromUser</servlet-name>
+    <url-pattern>/SipUriFromUser</url-pattern>
   </servlet-mapping>
 </web-app>
