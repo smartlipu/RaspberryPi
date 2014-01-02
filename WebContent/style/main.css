@@ -1,0 +1,210 @@
+
+			body{
+				font: 16px arial,helvetica,sans-serif;
+			}
+			a{
+				text-decoration: none;
+				font-size: medium;
+				font-weight: lighter;
+			}
+			.disabled{
+				color:#878787;
+			}
+			.heading{
+				margin:20px;
+			}
+			.main{
+				float:left;
+				margin:20px;
+				-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+				box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+				display: block;
+				padding:5px;
+				width:450px;
+				height:80px;
+				color:#878787;
+			}
+
+			.main_board{
+				background-image: url('bg.jpg');
+				width:450px;
+				height:90px;
+				float:left;
+				margin:20px;
+				-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+				box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+				padding:5px;
+			}
+			.tmp{
+				font-size:64px;
+			}
+			.tmp_layout{
+				float:left;
+				padding-left: 10px;
+				color:#000;
+			}
+			.tmp_meter{
+				float:left;
+				font-size:16px;
+				margin-top:6px;
+			}
+			.other_meter{
+				margin-top:6px;
+				padding-left:50px;
+				display: block;
+				float:left;
+				line-height: 22px;
+			}
+			.off_led{
+				float:left;
+				margin:5px;
+				border-radius: 50%;
+				width: 20px;
+				height: 20px; 
+				background-image: -webkit-radial-gradient(9px 10px, circle cover, gray, white) !important;
+				-webkit-box-shadow:  0px 0px 0px 0px black !important;
+				 box-shadow:         0px 0px 0px 0px black !important;
+			}
+			.on_led {
+				opacity: 1;
+				float:left;
+				margin:5px;
+				border-radius: 50%;
+				width: 20px;
+				height: 20px; 
+			}
+			.led_collection{
+				float:left;
+				margin-left: 25px;
+				margin-top: 26px;
+			}
+			#led1{
+				background-image: -moz-radial-gradient(9px 10px 45deg, circle cover, black 0%, gray 100%, white 95%);
+				background-image: -webkit-radial-gradient(9px 10px, circle cover, white, gray);
+				background-image: radial-gradient(9px 10px 45deg, circle cover, black 0%, gray 100%, white 95%);
+			}
+			#led1.brightness_1{
+				opacity: 0.8;
+				-webkit-box-shadow:  0px 0px 20px 1px #ccc;
+				 box-shadow:         0px 0px 20px 1px #ccc;
+			}
+			#led1.brightness_2{
+				-webkit-box-shadow:  0px 0px 20px 3px #ccc;
+				 box-shadow:         0px 0px 20px 3px #ccc;
+			}
+			#led1.brightness_3{
+				-webkit-box-shadow:  0px 0px 20px 6px #ccc;
+				 box-shadow:         0px 0px 20px 6px #ccc;
+			}
+			#led1.brightness_4{
+				-webkit-box-shadow:  0px 0px 20px 10px #ccc;
+				 box-shadow:         0px 0px 20px 10px #ccc;
+			}
+			#led2{
+				background-image: -moz-radial-gradient(9px 10px 45deg, circle cover, red 0%, orange 100%, yellow 95%);
+				background-image: -webkit-radial-gradient(9px 10px, circle cover, yellow, orange);
+				background-image: radial-gradient(9px 10px 45deg, circle cover, red 0%, orange 100%, yellow 95%);
+			}
+			#led2.brightness_1{
+				opacity: 0.8;
+				-webkit-box-shadow:  0px 0px 20px 1px yellow;
+				 box-shadow:         0px 0px 20px 1px yellow;
+			}
+			#led2.brightness_2{
+				-webkit-box-shadow:  0px 0px 20px 3px yellow;
+				 box-shadow:         0px 0px 20px 3px yellow;
+			}
+			#led2.brightness_3{
+				-webkit-box-shadow:  0px 0px 20px 6px yellow;
+				 box-shadow:         0px 0px 20px 6px yellow;
+			}
+			#led2.brightness_4{
+				-webkit-box-shadow:  0px 0px 20px 10px yellow;
+				 box-shadow:         0px 0px 20px 10px yellow;
+			}
+			#led3{
+				background-image: -moz-radial-gradient(9px 10px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+				background-image: -webkit-radial-gradient(9px 10px, circle cover, orange, red);
+				background-image: radial-gradient(9px 10px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+			}
+			#led3.brightness_1{
+				opacity: 0.8;
+				-webkit-box-shadow:  0px 0px 20px 1px orange;
+				 box-shadow:         0px 0px 20px 1px orange;
+			}
+			#led3.brightness_2{
+				-webkit-box-shadow:  0px 0px 20px 3px orange;
+				 box-shadow:         0px 0px 20px 3px orange;
+			}
+			#led3.brightness_3{
+				-webkit-box-shadow:  0px 0px 20px 6px orange;
+				 box-shadow:         0px 0px 20px 6px orange;
+			}
+			#led3.brightness_4{
+				-webkit-box-shadow:  0px 0px 20px 10px orange;
+				 box-shadow:         0px 0px 20px 10px orange;
+			}
+			#led4{
+				background-image: -webkit-radial-gradient(9px 10px, circle cover, cyan, green);
+			}
+			#led4.brightness_1{
+				opacity: 0.8;
+				-webkit-box-shadow:  0px 0px 20px 1px greenyellow;
+				 box-shadow:         0px 0px 20px 1px greenyellow;
+			}
+			#led4.brightness_2{
+				-webkit-box-shadow:  0px 0px 20px 3px greenyellow;
+				 box-shadow:         0px 0px 20px 3px greenyellow;
+			}
+			#led4.brightness_3{
+				-webkit-box-shadow:  0px 0px 20px 6px greenyellow;
+				 box-shadow:         0px 0px 20px 6px greenyellow;
+			}
+			#led4.brightness_4{
+				-webkit-box-shadow:  0px 0px 20px 10px greenyellow;
+				 box-shadow:         0px 0px 20px 10px greenyellow;
+			}
+			#led5{
+				background-image: -webkit-radial-gradient(9px 10px, circle cover, cyan, blue);
+			}
+			#led5.brightness_1{
+				opacity: 0.8;
+				-webkit-box-shadow:  0px 0px 20px 1px lightskyblue;
+				 box-shadow:         0px 0px 20px 1px lightskyblue;
+			}
+			#led5.brightness_2{
+				-webkit-box-shadow:  0px 0px 20px 3px lightskyblue;
+				 box-shadow:         0px 0px 20px 3px lightskyblue;
+			}
+			#led5.brightness_3{
+				-webkit-box-shadow:  0px 0px 20px 6px lightskyblue;
+				 box-shadow:         0px 0px 20px 6px lightskyblue;
+			}
+			#led5.brightness_4{
+				-webkit-box-shadow:  0px 0px 20px 10px lightskyblue;
+				 box-shadow:         0px 0px 20px 10px lightskyblue;
+			}
+			.ui-slider-handle{
+				width:13px !important;
+				height: 10px !important;
+			}
+			.action{
+				margin-top:3px;
+				margin-left:20px;
+				float:left;
+			}
+			.ui-slider-range{
+				background: rgb(255,138,84); /* Old browsers */
+				background: -moz-linear-gradient(top, rgba(255,138,84,1) 0%, rgba(255,251,249,1) 49%, rgba(144,200,249,1) 99%, rgba(144,200,249,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,138,84,1)), color-stop(49%,rgba(255,251,249,1)), color-stop(99%,rgba(144,200,249,1)), color-stop(100%,rgba(144,200,249,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, rgba(255,138,84,1) 0%,rgba(255,251,249,1) 49%,rgba(144,200,249,1) 99%,rgba(144,200,249,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, rgba(255,138,84,1) 0%,rgba(255,251,249,1) 49%,rgba(144,200,249,1) 99%,rgba(144,200,249,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, rgba(255,138,84,1) 0%,rgba(255,251,249,1) 49%,rgba(144,200,249,1) 99%,rgba(144,200,249,1) 100%); /* IE10+ */
+				background: linear-gradient(to bottom, rgba(255,138,84,1) 0%,rgba(255,251,249,1) 49%,rgba(144,200,249,1) 99%,rgba(144,200,249,1) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8a54', endColorstr='#90c8f9',GradientType=0 ); /* IE6-9 */
+			}
+			.action_select{
+				float:right;
+			
+				padding:10px;
+			}

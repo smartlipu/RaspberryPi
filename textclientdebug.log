@@ -1,0 +1,558 @@
+INFO - value -1000 will be used for reliableConnectionKeepAliveTimeout stack property
+INFO - Setting Stack Thread priority to 10
+WARN - using default tls security policy
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1198) [created Sip stack. Properties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}]
+INFO - the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1345) [createListeningPoint : address = 10.201.11.20 port = 5060 transport = UDP]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageProcessor.<init>(UDPMessageProcessor.java:128) [Max Message size is 65536]
+ERROR - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1395) [Invalid argument address = 10.201.11.20 port = 5060 transport = UDP]
+INFO - value -1000 will be used for reliableConnectionKeepAliveTimeout stack property
+INFO - Setting Stack Thread priority to 10
+WARN - using default tls security policy
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1198) [created Sip stack. Properties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}]
+INFO - the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1345) [createListeningPoint : address = 10.201.11.20 port = 5060 transport = UDP]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageProcessor.<init>(UDPMessageProcessor.java:128) [Max Message size is 65536]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1381) [Created Message Processor: 10.201.11.20 port = 5060 transport = UDP]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:203) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@7d672a listeningPoint = gov.nist.javax.sip.ListeningPointImpl@1000502]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:1413) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@1000502]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:237) [add SipListener com.eclipsesource.sip.SipController@1ee9422]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.DefaultRouter.getNextHop(DefaultRouter.java:240) [Used request-URI for nextHop = 10.201.11.20:5030/udp]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.<init>(UDPMessageChannel.java:256) [Creating message channel 10.201.11.20/5030]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:776) [sendMessage 10.201.11.20/5030
+messageSize =  410 message = MESSAGE sip:lipu@10.201.11.20:5030;transport=udp SIP/2.0
+Call-ID: 7f25185cfc088d0ef867085ed654bf90@10.201.11.20
+CSeq: 1 MESSAGE
+From: "test" <sip:test@10.201.11.20:10022>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+Max-Forwards: 70
+Contact: "test" <sip:test@10.201.11.20:5060>
+Content-Type: text/plain
+Content-Length: 12
+
+test message]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:780) [*******************
+]
+INFO - <message
+from="10.201.11.20:5060" 
+to="10.201.11.20:5030" 
+time="1384456836037"
+isSender="true" 
+transactionId="textclientv1.0-7f25185cfc088d0ef867085ed654bf90-10.201.11.20-1-message-10.201.11.20-5060343039" 
+callId="7f25185cfc088d0ef867085ed654bf90@10.201.11.20" 
+firstLine="MESSAGE sip:lipu@10.201.11.20:5030;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:lipu@10.201.11.20:5030;transport=udp SIP/2.0
+Call-ID: 7f25185cfc088d0ef867085ed654bf90@10.201.11.20
+CSeq: 1 MESSAGE
+From: "test" <sip:test@10.201.11.20:10022>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+Max-Forwards: 70
+Contact: "test" <sip:test@10.201.11.20:5060>
+Content-Type: text/plain
+Content-Length: 12
+
+]]>
+</message>
+
+DEBUG - gov.nist.javax.sip.SipProviderImpl.sendRequest(SipProviderImpl.java:744) [done sending MESSAGE to hop 10.201.11.20:5030/udp]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.processIncomingDataPacket(UDPMessageChannel.java:327) [UDPMessageChannel: processIncomingDataPacket : peerAddress = 10.201.11.20/5030 Length = 323]
+INFO - <message
+from="10.201.11.20:5030" 
+to="10.201.11.20:5060" 
+time="1384456836125"
+isSender="false" 
+transactionId="textclientv1.0-7f25185cfc088d0ef867085ed654bf90-10.201.11.20-1-message-10.201.11.20-5060343039" 
+callId="7f25185cfc088d0ef867085ed654bf90@10.201.11.20" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:10022>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=288999629
+Call-ID: 7f25185cfc088d0ef867085ed654bf90@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+]]>
+</message>
+
+DEBUG - gov.nist.javax.sip.stack.SIPTransactionStack.findTransaction(SIPTransactionStack.java:1195) [clientTx: looking for key textclientv1.0-7f25185cfc088d0ef867085ed654bf90-10.201.11.20-1-message-10.201.11.20-5060343039]
+DEBUG - gov.nist.javax.sip.stack.SIPTransactionStack.findTransaction(SIPTransactionStack.java:1222) [findTransaction: returning  : null]
+DEBUG - gov.nist.javax.sip.NistSipMessageFactoryImpl.newSIPServerResponse(NistSipMessageFactoryImpl.java:111) [Found Transaction null for SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:10022>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=288999629
+Call-ID: 7f25185cfc088d0ef867085ed654bf90@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+]
+DEBUG - gov.nist.javax.sip.stack.SIPTransactionStack.getDialog(SIPTransactionStack.java:983) [getDialog(7f25185cfc088d0ef867085ed654bf90@10.201.11.20:textclientv1.0:288999629) : returning null]
+DEBUG - gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1505) [PROCESSING INCOMING RESPONSE: SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:10022>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=288999629
+Call-ID: 7f25185cfc088d0ef867085ed654bf90@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+]
+DEBUG - gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1558) [Transaction = null sipDialog = null]
+DEBUG - gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1695) [sending response SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:10022>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=288999629
+Call-ID: 7f25185cfc088d0ef867085ed654bf90@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+ to TU for processing ]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:174) [handleEvent gov.nist.javax.sip.ResponseEventExt[source=gov.nist.javax.sip.SipProviderImpl@f259d6]currentTransaction = nullthis.sipListener = com.eclipsesource.sip.SipController@1ee9422sipEvent.source = gov.nist.javax.sip.SipProviderImpl@f259d6]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:184) [Dialog = null]
+DEBUG - [LogWriter.java:92][CommonLogger.java:108][SipProviderImpl.java:186][DialogFilter.java:1727][UDPMessageChannel.java:583][UDPMessageChannel.java:492][UDPMessageChannel.java:297][Thread.java:722]
+DEBUG - gov.nist.javax.sip.EventScanner.addEvent(EventScanner.java:89) [addEvent gov.nist.javax.sip.EventWrapper@2f925d]
+DEBUG - gov.nist.javax.sip.EventScanner.run(EventScanner.java:514) [Processing gov.nist.javax.sip.EventWrapper@2f925dnevents 1]
+DEBUG - gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:137) [sipEvent = gov.nist.javax.sip.ResponseEventExt[source=gov.nist.javax.sip.SipProviderImpl@f259d6]source = gov.nist.javax.sip.SipProviderImpl@f259d6]
+DEBUG - gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:287) [Calling listener com.eclipsesource.sip.SipController@1ee9422 for SIP/2.0 200 OK
+]
+INFO - value -1000 will be used for reliableConnectionKeepAliveTimeout stack property
+INFO - Setting Stack Thread priority to 10
+WARN - using default tls security policy
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1198) [created Sip stack. Properties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}]
+INFO - the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1345) [createListeningPoint : address = 10.201.11.20 port = 5060 transport = UDP]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageProcessor.<init>(UDPMessageProcessor.java:128) [Max Message size is 65536]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1381) [Created Message Processor: 10.201.11.20 port = 5060 transport = UDP]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:203) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@c88c75 listeningPoint = gov.nist.javax.sip.ListeningPointImpl@7d672a]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:1413) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@7d672a]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:237) [add SipListener com.eclipsesource.sip.SipController@12a2cf9]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.DefaultRouter.getNextHop(DefaultRouter.java:240) [Used request-URI for nextHop = 10.201.11.20:5030/udp]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.<init>(UDPMessageChannel.java:256) [Creating message channel 10.201.11.20/5030]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:776) [sendMessage 10.201.11.20/5030
+messageSize =  409 message = MESSAGE sip:lipu@10.201.11.20:5030;transport=udp SIP/2.0
+Call-ID: eca1d0a30b4a6839d1d6ec212102f674@10.201.11.20
+CSeq: 1 MESSAGE
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+Max-Forwards: 70
+Contact: "test" <sip:test@10.201.11.20:5060>
+Content-Type: text/plain
+Content-Length: 12
+
+test message]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:780) [*******************
+]
+INFO - <message
+from="10.201.11.20:5060" 
+to="10.201.11.20:5030" 
+time="1384456946531"
+isSender="true" 
+transactionId="textclientv1.0-eca1d0a30b4a6839d1d6ec212102f674-10.201.11.20-1-message-10.201.11.20-5060363734" 
+callId="eca1d0a30b4a6839d1d6ec212102f674@10.201.11.20" 
+firstLine="MESSAGE sip:lipu@10.201.11.20:5030;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:lipu@10.201.11.20:5030;transport=udp SIP/2.0
+Call-ID: eca1d0a30b4a6839d1d6ec212102f674@10.201.11.20
+CSeq: 1 MESSAGE
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+Max-Forwards: 70
+Contact: "test" <sip:test@10.201.11.20:5060>
+Content-Type: text/plain
+Content-Length: 12
+
+]]>
+</message>
+
+DEBUG - gov.nist.javax.sip.SipProviderImpl.sendRequest(SipProviderImpl.java:744) [done sending MESSAGE to hop 10.201.11.20:5030/udp]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.processIncomingDataPacket(UDPMessageChannel.java:327) [UDPMessageChannel: processIncomingDataPacket : peerAddress = 10.201.11.20/5030 Length = 320]
+INFO - <message
+from="10.201.11.20:5030" 
+to="10.201.11.20:5060" 
+time="1384456946605"
+isSender="false" 
+transactionId="textclientv1.0-eca1d0a30b4a6839d1d6ec212102f674-10.201.11.20-1-message-10.201.11.20-5060363734" 
+callId="eca1d0a30b4a6839d1d6ec212102f674@10.201.11.20" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=3967594
+Call-ID: eca1d0a30b4a6839d1d6ec212102f674@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+]]>
+</message>
+
+DEBUG - gov.nist.javax.sip.stack.SIPTransactionStack.findTransaction(SIPTransactionStack.java:1195) [clientTx: looking for key textclientv1.0-eca1d0a30b4a6839d1d6ec212102f674-10.201.11.20-1-message-10.201.11.20-5060363734]
+DEBUG - gov.nist.javax.sip.stack.SIPTransactionStack.findTransaction(SIPTransactionStack.java:1222) [findTransaction: returning  : null]
+DEBUG - gov.nist.javax.sip.NistSipMessageFactoryImpl.newSIPServerResponse(NistSipMessageFactoryImpl.java:111) [Found Transaction null for SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=3967594
+Call-ID: eca1d0a30b4a6839d1d6ec212102f674@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+]
+DEBUG - gov.nist.javax.sip.stack.SIPTransactionStack.getDialog(SIPTransactionStack.java:983) [getDialog(eca1d0a30b4a6839d1d6ec212102f674@10.201.11.20:textclientv1.0:3967594) : returning null]
+DEBUG - gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1505) [PROCESSING INCOMING RESPONSE: SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=3967594
+Call-ID: eca1d0a30b4a6839d1d6ec212102f674@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+]
+DEBUG - gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1558) [Transaction = null sipDialog = null]
+DEBUG - gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1695) [sending response SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=3967594
+Call-ID: eca1d0a30b4a6839d1d6ec212102f674@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+ to TU for processing ]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:174) [handleEvent gov.nist.javax.sip.ResponseEventExt[source=gov.nist.javax.sip.SipProviderImpl@4764b]currentTransaction = nullthis.sipListener = com.eclipsesource.sip.SipController@12a2cf9sipEvent.source = gov.nist.javax.sip.SipProviderImpl@4764b]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:184) [Dialog = null]
+DEBUG - [LogWriter.java:92][CommonLogger.java:108][SipProviderImpl.java:186][DialogFilter.java:1727][UDPMessageChannel.java:583][UDPMessageChannel.java:492][UDPMessageChannel.java:297][Thread.java:722]
+DEBUG - gov.nist.javax.sip.EventScanner.addEvent(EventScanner.java:89) [addEvent gov.nist.javax.sip.EventWrapper@1e71d39]
+DEBUG - gov.nist.javax.sip.EventScanner.run(EventScanner.java:514) [Processing gov.nist.javax.sip.EventWrapper@1e71d39nevents 1]
+DEBUG - gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:137) [sipEvent = gov.nist.javax.sip.ResponseEventExt[source=gov.nist.javax.sip.SipProviderImpl@4764b]source = gov.nist.javax.sip.SipProviderImpl@4764b]
+DEBUG - gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:287) [Calling listener com.eclipsesource.sip.SipController@12a2cf9 for SIP/2.0 200 OK
+]
+INFO - value -1000 will be used for reliableConnectionKeepAliveTimeout stack property
+INFO - Setting Stack Thread priority to 10
+WARN - using default tls security policy
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1198) [created Sip stack. Properties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}]
+INFO - the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1345) [createListeningPoint : address = 10.201.11.20 port = 5060 transport = UDP]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageProcessor.<init>(UDPMessageProcessor.java:128) [Max Message size is 65536]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1381) [Created Message Processor: 10.201.11.20 port = 5060 transport = UDP]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:203) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@c88c75 listeningPoint = gov.nist.javax.sip.ListeningPointImpl@7d672a]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:1413) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@7d672a]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:237) [add SipListener com.eclipsesource.sip.SipController@12a2cf9]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.DefaultRouter.getNextHop(DefaultRouter.java:240) [Used request-URI for nextHop = 10.201.11.20:5030/udp]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.<init>(UDPMessageChannel.java:256) [Creating message channel 10.201.11.20/5030]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:776) [sendMessage 10.201.11.20/5030
+messageSize =  409 message = MESSAGE sip:lipu@10.201.11.20:5030;transport=udp SIP/2.0
+Call-ID: d96811adc6c36bf5162f13a622c8a46e@10.201.11.20
+CSeq: 1 MESSAGE
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+Max-Forwards: 70
+Contact: "test" <sip:test@10.201.11.20:5060>
+Content-Type: text/plain
+Content-Length: 12
+
+test message]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:780) [*******************
+]
+INFO - <message
+from="10.201.11.20:5060" 
+to="10.201.11.20:5030" 
+time="1384457562074"
+isSender="true" 
+transactionId="textclientv1.0-d96811adc6c36bf5162f13a622c8a46e-10.201.11.20-1-message-10.201.11.20-5060323231" 
+callId="d96811adc6c36bf5162f13a622c8a46e@10.201.11.20" 
+firstLine="MESSAGE sip:lipu@10.201.11.20:5030;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:lipu@10.201.11.20:5030;transport=udp SIP/2.0
+Call-ID: d96811adc6c36bf5162f13a622c8a46e@10.201.11.20
+CSeq: 1 MESSAGE
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+Max-Forwards: 70
+Contact: "test" <sip:test@10.201.11.20:5060>
+Content-Type: text/plain
+Content-Length: 12
+
+]]>
+</message>
+
+DEBUG - gov.nist.javax.sip.SipProviderImpl.sendRequest(SipProviderImpl.java:744) [done sending MESSAGE to hop 10.201.11.20:5030/udp]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.processIncomingDataPacket(UDPMessageChannel.java:327) [UDPMessageChannel: processIncomingDataPacket : peerAddress = 10.201.11.20/5030 Length = 322]
+INFO - <message
+from="10.201.11.20:5030" 
+to="10.201.11.20:5060" 
+time="1384457562158"
+isSender="false" 
+transactionId="textclientv1.0-d96811adc6c36bf5162f13a622c8a46e-10.201.11.20-1-message-10.201.11.20-5060323231" 
+callId="d96811adc6c36bf5162f13a622c8a46e@10.201.11.20" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=668285238
+Call-ID: d96811adc6c36bf5162f13a622c8a46e@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+]]>
+</message>
+
+DEBUG - gov.nist.javax.sip.stack.SIPTransactionStack.findTransaction(SIPTransactionStack.java:1195) [clientTx: looking for key textclientv1.0-d96811adc6c36bf5162f13a622c8a46e-10.201.11.20-1-message-10.201.11.20-5060323231]
+DEBUG - gov.nist.javax.sip.stack.SIPTransactionStack.findTransaction(SIPTransactionStack.java:1222) [findTransaction: returning  : null]
+DEBUG - gov.nist.javax.sip.NistSipMessageFactoryImpl.newSIPServerResponse(NistSipMessageFactoryImpl.java:111) [Found Transaction null for SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=668285238
+Call-ID: d96811adc6c36bf5162f13a622c8a46e@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+]
+DEBUG - gov.nist.javax.sip.stack.SIPTransactionStack.getDialog(SIPTransactionStack.java:983) [getDialog(d96811adc6c36bf5162f13a622c8a46e@10.201.11.20:textclientv1.0:668285238) : returning null]
+DEBUG - gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1505) [PROCESSING INCOMING RESPONSE: SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=668285238
+Call-ID: d96811adc6c36bf5162f13a622c8a46e@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+]
+DEBUG - gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1558) [Transaction = null sipDialog = null]
+DEBUG - gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1695) [sending response SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=668285238
+Call-ID: d96811adc6c36bf5162f13a622c8a46e@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+ to TU for processing ]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:174) [handleEvent gov.nist.javax.sip.ResponseEventExt[source=gov.nist.javax.sip.SipProviderImpl@4764b]currentTransaction = nullthis.sipListener = com.eclipsesource.sip.SipController@12a2cf9sipEvent.source = gov.nist.javax.sip.SipProviderImpl@4764b]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:184) [Dialog = null]
+DEBUG - [LogWriter.java:92][CommonLogger.java:108][SipProviderImpl.java:186][DialogFilter.java:1727][UDPMessageChannel.java:583][UDPMessageChannel.java:492][UDPMessageChannel.java:297][Thread.java:722]
+DEBUG - gov.nist.javax.sip.EventScanner.addEvent(EventScanner.java:89) [addEvent gov.nist.javax.sip.EventWrapper@1e71d39]
+DEBUG - gov.nist.javax.sip.EventScanner.run(EventScanner.java:514) [Processing gov.nist.javax.sip.EventWrapper@1e71d39nevents 1]
+DEBUG - gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:137) [sipEvent = gov.nist.javax.sip.ResponseEventExt[source=gov.nist.javax.sip.SipProviderImpl@4764b]source = gov.nist.javax.sip.SipProviderImpl@4764b]
+DEBUG - gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:287) [Calling listener com.eclipsesource.sip.SipController@12a2cf9 for SIP/2.0 200 OK
+]
+INFO - value -1000 will be used for reliableConnectionKeepAliveTimeout stack property
+INFO - Setting Stack Thread priority to 10
+WARN - using default tls security policy
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1198) [created Sip stack. Properties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}]
+INFO - the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1345) [createListeningPoint : address = 10.201.11.20 port = 5060 transport = UDP]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageProcessor.<init>(UDPMessageProcessor.java:128) [Max Message size is 65536]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1381) [Created Message Processor: 10.201.11.20 port = 5060 transport = UDP]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:203) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@c88c75 listeningPoint = gov.nist.javax.sip.ListeningPointImpl@7d672a]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:1413) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@7d672a]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:237) [add SipListener com.eclipsesource.sip.SipController@12a2cf9]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.DefaultRouter.getNextHop(DefaultRouter.java:240) [Used request-URI for nextHop = 10.201.11.20:5030/udp]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.<init>(UDPMessageChannel.java:256) [Creating message channel 10.201.11.20/5030]
+DEBUG - BUILD TIMESTAMP = null
+DEBUG - Config Propeties = {}{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=TRACE, javax.sip.STACK_NAME=TextClient, gov.nist.javax.sip.SERVER_LOG=textclient.txt, gov.nist.javax.sip.DEBUG_LOG=textclientdebug.log}
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:776) [sendMessage 10.201.11.20/5030
+messageSize =  409 message = MESSAGE sip:lipu@10.201.11.20:5030;transport=udp SIP/2.0
+Call-ID: ae88cd52f257f6d0b1c7f7524b6ebd54@10.201.11.20
+CSeq: 1 MESSAGE
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+Max-Forwards: 70
+Contact: "test" <sip:test@10.201.11.20:5060>
+Content-Type: text/plain
+Content-Length: 12
+
+test message]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:780) [*******************
+]
+INFO - <message
+from="10.201.11.20:5060" 
+to="10.201.11.20:5030" 
+time="1384458661782"
+isSender="true" 
+transactionId="textclientv1.0-ae88cd52f257f6d0b1c7f7524b6ebd54-10.201.11.20-1-message-10.201.11.20-5060383131" 
+callId="ae88cd52f257f6d0b1c7f7524b6ebd54@10.201.11.20" 
+firstLine="MESSAGE sip:lipu@10.201.11.20:5030;transport=udp SIP/2.0" 
+>
+<![CDATA[MESSAGE sip:lipu@10.201.11.20:5030;transport=udp SIP/2.0
+Call-ID: ae88cd52f257f6d0b1c7f7524b6ebd54@10.201.11.20
+CSeq: 1 MESSAGE
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+Max-Forwards: 70
+Contact: "test" <sip:test@10.201.11.20:5060>
+Content-Type: text/plain
+Content-Length: 12
+
+]]>
+</message>
+
+DEBUG - gov.nist.javax.sip.SipProviderImpl.sendRequest(SipProviderImpl.java:744) [done sending MESSAGE to hop 10.201.11.20:5030/udp]
+DEBUG - gov.nist.javax.sip.stack.UDPMessageChannel.processIncomingDataPacket(UDPMessageChannel.java:327) [UDPMessageChannel: processIncomingDataPacket : peerAddress = 10.201.11.20/5030 Length = 323]
+INFO - <message
+from="10.201.11.20:5030" 
+to="10.201.11.20:5060" 
+time="1384458661910"
+isSender="false" 
+transactionId="textclientv1.0-ae88cd52f257f6d0b1c7f7524b6ebd54-10.201.11.20-1-message-10.201.11.20-5060383131" 
+callId="ae88cd52f257f6d0b1c7f7524b6ebd54@10.201.11.20" 
+firstLine="SIP/2.0 200 OK" 
+>
+<![CDATA[SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=1545447759
+Call-ID: ae88cd52f257f6d0b1c7f7524b6ebd54@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+]]>
+</message>
+
+DEBUG - gov.nist.javax.sip.stack.SIPTransactionStack.findTransaction(SIPTransactionStack.java:1195) [clientTx: looking for key textclientv1.0-ae88cd52f257f6d0b1c7f7524b6ebd54-10.201.11.20-1-message-10.201.11.20-5060383131]
+DEBUG - gov.nist.javax.sip.stack.SIPTransactionStack.findTransaction(SIPTransactionStack.java:1222) [findTransaction: returning  : null]
+DEBUG - gov.nist.javax.sip.NistSipMessageFactoryImpl.newSIPServerResponse(NistSipMessageFactoryImpl.java:111) [Found Transaction null for SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=1545447759
+Call-ID: ae88cd52f257f6d0b1c7f7524b6ebd54@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+]
+DEBUG - gov.nist.javax.sip.stack.SIPTransactionStack.getDialog(SIPTransactionStack.java:983) [getDialog(ae88cd52f257f6d0b1c7f7524b6ebd54@10.201.11.20:textclientv1.0:1545447759) : returning null]
+DEBUG - gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1505) [PROCESSING INCOMING RESPONSE: SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=1545447759
+Call-ID: ae88cd52f257f6d0b1c7f7524b6ebd54@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+]
+DEBUG - gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1558) [Transaction = null sipDialog = null]
+DEBUG - gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1695) [sending response SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.201.11.20:5060;branch=branch1
+From: "test" <sip:test@10.201.11.20:5060>;tag=textclientv1.0
+To: "lipu" <sip:lipu@10.201.11.20:5030>;tag=1545447759
+Call-ID: ae88cd52f257f6d0b1c7f7524b6ebd54@10.201.11.20
+CSeq: 1 MESSAGE
+User-Agent: Linphone/3.3.2 (eXosip2/3.3.0)
+Content-Length: 0
+
+ to TU for processing ]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:174) [handleEvent gov.nist.javax.sip.ResponseEventExt[source=gov.nist.javax.sip.SipProviderImpl@4764b]currentTransaction = nullthis.sipListener = com.eclipsesource.sip.SipController@12a2cf9sipEvent.source = gov.nist.javax.sip.SipProviderImpl@4764b]
+DEBUG - gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:184) [Dialog = null]
+DEBUG - [LogWriter.java:92][CommonLogger.java:108][SipProviderImpl.java:186][DialogFilter.java:1727][UDPMessageChannel.java:583][UDPMessageChannel.java:492][UDPMessageChannel.java:297][Thread.java:722]
+DEBUG - gov.nist.javax.sip.EventScanner.addEvent(EventScanner.java:89) [addEvent gov.nist.javax.sip.EventWrapper@1e71d39]
+DEBUG - gov.nist.javax.sip.EventScanner.run(EventScanner.java:514) [Processing gov.nist.javax.sip.EventWrapper@1e71d39nevents 1]
+DEBUG - gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:137) [sipEvent = gov.nist.javax.sip.ResponseEventExt[source=gov.nist.javax.sip.SipProviderImpl@4764b]source = gov.nist.javax.sip.SipProviderImpl@4764b]
+DEBUG - gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:287) [Calling listener com.eclipsesource.sip.SipController@12a2cf9 for SIP/2.0 200 OK
+]
